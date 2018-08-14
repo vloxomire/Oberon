@@ -25,5 +25,8 @@ public class OberonActivity extends Activity {
         tv1=findViewById(R.id.tv1);
         rb1=findViewById(R.id.rb1);
         rb2=findViewById(R.id.rb2);
+
+        String valor1= et1.getText().toString();
+        String valor2= et2.getText().toString();
     }
 }
