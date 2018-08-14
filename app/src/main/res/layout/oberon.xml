@@ -8,11 +8,11 @@
     android:background="@color/colorAccent">
 
     <EditText
-        android:id="@+id/eT1"
+        android:id="@+id/et1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_alignStart="@+id/eT2"
+        android:layout_alignStart="@+id/et2"
         android:layout_marginTop="84dp"
         android:ems="10"
         android:hint="Imgrese un valor"
@@ -21,7 +21,7 @@
         tools:layout_editor_absoluteY="53dp" />
 
     <EditText
-        android:id="@+id/eT2"
+        android:id="@+id/et2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -43,14 +43,14 @@
         android:layout_marginTop="254dp">
 
         <RadioButton
-            android:id="@+id/rB1"
+            android:id="@+id/rb1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Suma" />
 
         <RadioButton
-            android:id="@+id/rB2"
+            android:id="@+id/rb2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -68,7 +68,7 @@
         android:text="Calcular" />
 
     <TextView
-        android:id="@+id/tV1"
+        android:id="@+id/tv1"
         android:layout_width="wrap_content"
         android:layout_height="42dp"
         android:layout_alignParentTop="true"

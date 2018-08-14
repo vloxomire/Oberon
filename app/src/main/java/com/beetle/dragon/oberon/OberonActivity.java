@@ -11,12 +11,19 @@ public class OberonActivity extends Activity {
 
     private EditText et1, et2;
     private Button button;
-    private TextView tW1;
-    private RadioButton rB1, rB2;
+    private TextView tv1;
+    private RadioButton rb1, rb2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.oberon);
+
+        et1=findViewById(R.id.et1);
+        et2=findViewById(R.id.et2);
+        button=findViewById(R.id.button);
+        tv1=findViewById(R.id.tv1);
+        rb1=findViewById(R.id.rb1);
+        rb2=findViewById(R.id.rb2);
     }
 }
